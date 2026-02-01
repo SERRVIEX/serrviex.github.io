@@ -19,32 +19,52 @@
             <div class="legal-content">
                 <section>
                     <h2>Introduction</h2>
-                    <p>This Privacy Policy describes how we collect, use, disclose, and protect your information when you use our mobile applications ("Apps"), including games and other software available on the Apple App Store and other platforms.</p>
-                    <p>By downloading, installing, or using our Apps, you agree to the collection and use of information in accordance with this Privacy Policy. If you do not agree with this policy, please do not use our Apps.</p>
+                    <p>This Privacy Policy describes how we collect, use, disclose, and protect your information when you use our mobile applications ("Apps"), including games, utilities, family safety apps, and other software available on the Apple App Store, Google Play Store, and other platforms.</p>
+                    <p>We offer different types of Apps:</p>
+                    <ul>
+                        <li><strong>General Apps:</strong> Games, utilities, and other applications designed for users aged 13 and older</li>
+                        <li><strong>Family Safety Apps:</strong> Applications designed for families, where parents can add children to share locations and stay connected</li>
+                    </ul>
+                    <p>Some sections of this Privacy Policy apply specifically to one type of App, as noted. By downloading, installing, or using our Apps, you agree to the collection and use of information in accordance with this Privacy Policy. If you do not agree with this policy, please do not use our Apps.</p>
                 </section>
 
                 <section>
                     <h2>Information We Collect</h2>
                     <p>We may collect and process the following types of information:</p>
 
+                    <h3>Account and Authentication Information</h3>
+                    <p>When you create an account, we collect information depending on your chosen sign-in method:</p>
+                    <ul>
+                        <li><strong>Email Sign-In:</strong> Email address and password (password is securely hashed)</li>
+                        <li><strong>Sign in with Google:</strong> Name, email address, and profile picture from your Google account</li>
+                        <li><strong>Sign in with Apple:</strong> Name and email address (you may choose to hide your email using Apple's private relay)</li>
+                    </ul>
+
                     <h3>Information You Provide Directly</h3>
                     <ul>
-                        <li>Account information (username, email address) if you create an account</li>
-                        <li>Profile information you choose to provide</li>
-                        <li>Communications when you contact us for support</li>
-                        <li>User-generated content within our Apps</li>
+                        <li><strong>Profile Information:</strong> Name, nickname, profile picture, and other information you choose to provide</li>
+                        <li><strong>Communications:</strong> Messages when you contact us for support</li>
+                        <li><strong>User-Generated Content:</strong> Content you create within our Apps</li>
                     </ul>
 
                     <h3>Information Collected Automatically</h3>
                     <ul>
                         <li><strong>Device Information:</strong> Device type, model, operating system version, unique device identifiers (such as IDFA or IDFV), device settings, and hardware specifications</li>
+                        <li><strong>Location Data:</strong> With your permission, we collect precise GPS location data for family safety features (location sharing, geofencing, safety alerts). For other Apps, we may collect general location derived from IP address</li>
                         <li><strong>Usage Data:</strong> App features used, time spent in-app, session duration, gameplay statistics, interactions with content, and in-app purchase history</li>
                         <li><strong>Log Data:</strong> Access times, crash reports, performance data, and error logs</li>
-                        <li><strong>Network Information:</strong> IP address, mobile carrier, connection type (WiFi/cellular), and general location data derived from IP address</li>
+                        <li><strong>Network Information:</strong> IP address, mobile carrier, and connection type (WiFi/cellular)</li>
                     </ul>
 
                     <h3>Information from Third-Party Sources</h3>
-                    <p>We may receive information about you from third-party services, such as social media platforms if you choose to link your account, or from advertising and analytics partners.</p>
+                    <p>We may receive information about you from third-party services:</p>
+                    <ul>
+                        <li><strong>Social Sign-In Providers:</strong> When you sign in with Google or Apple, we receive profile information from these services</li>
+                        <li><strong>Advertising Partners:</strong> Our ad networks (such as AdMob, Unity Ads, AppLovin) may provide us with aggregated ad performance data and audience insights</li>
+                        <li><strong>Analytics Services:</strong> Analytics providers (such as Firebase Analytics) provide us with data about app usage, user engagement, and performance metrics</li>
+                        <li><strong>Attribution Partners:</strong> Services that help us understand how users discover and install our Apps</li>
+                    </ul>
+                    <p>For detailed information about our advertising and analytics partners, see the sections below.</p>
                 </section>
 
                 <section>
@@ -100,12 +120,14 @@
                     <p>We use analytics services to help us understand how users engage with our Apps. These services may collect information about your use of our Apps and report trends to us.</p>
 
                     <h3>Analytics Partners</h3>
-                    <p>We may use the following analytics services:</p>
+                    <p>We may use the following analytics and subscription management services:</p>
                     <ul>
                         <li><strong>Google Analytics for Firebase:</strong> <a href="https://firebase.google.com/support/privacy" target="_blank">Privacy Information</a></li>
                         <li><strong>Unity Analytics:</strong> <a href="https://unity.com/legal/privacy-policy" target="_blank">Privacy Policy</a></li>
-                        <li><strong>Flurry Analytics:</strong> <a href="https://www.verizon.com/about/privacy/full-privacy-policy" target="_blank">Privacy Policy</a></li>
-                        <li><strong>Adjust:</strong> <a href="https://www.adjust.com/terms/privacy-policy/" target="_blank">Privacy Policy</a></li>
+                        <li><strong>RevenueCat:</strong> <a href="https://www.revenuecat.com/privacy" target="_blank">Privacy Policy</a></li>
+                        <li><strong>Mixpanel:</strong> <a href="https://mixpanel.com/legal/privacy-policy" target="_blank">Privacy Policy</a></li>
+                        <li><strong>Amplitude:</strong> <a href="https://amplitude.com/privacy" target="_blank">Privacy Policy</a></li>
+                        <li><strong>Crashlytics:</strong> <a href="https://firebase.google.com/support/privacy" target="_blank">Privacy Information</a></li>
                     </ul>
 
                     <h3>Information Collected for Analytics</h3>
@@ -167,21 +189,64 @@
 
                 <section>
                     <h2>Data Security</h2>
-                    <p>We implement appropriate technical and organizational measures to protect your information against unauthorized access, alteration, disclosure, or destruction, including:</p>
+                    <p>We use industry-standard security measures to protect your information. Our Apps use Google Firebase for backend services, which provides enterprise-grade security:</p>
                     <ul>
-                        <li>Encryption of data in transit and at rest</li>
-                        <li>Access controls and authentication measures</li>
-                        <li>Regular security assessments</li>
-                        <li>Employee training on data protection</li>
+                        <li><strong>Encryption in Transit:</strong> All data transmitted between the App and servers is encrypted using TLS (Transport Layer Security)</li>
+                        <li><strong>Encryption at Rest:</strong> Data stored in Firebase is automatically encrypted at rest</li>
+                        <li><strong>Access Controls:</strong> Firebase security rules and authentication restrict data access to authorized users</li>
+                        <li><strong>Secure Infrastructure:</strong> Firebase runs on Google Cloud Platform with SOC and ISO 27001 certifications</li>
                     </ul>
                     <p><strong>However, no method of transmission over the Internet or electronic storage is 100% secure. We cannot guarantee absolute security of your data, and you transmit information to us at your own risk.</strong> We are not responsible for circumvention of any privacy settings or security measures contained in the Apps.</p>
                 </section>
 
                 <section>
                     <h2>Children's Privacy</h2>
-                    <p>Our Apps are not directed to children under the age of 13 (or the applicable age in your jurisdiction). We do not knowingly collect personal information from children under 13. If we learn that we have collected personal information from a child under 13, we will take steps to delete that information as soon as possible.</p>
+                    <p>We take children's privacy seriously. For detailed information about how we protect children in family-oriented Apps, please see our <a href="children-safety.html">Children's Safety Policy</a>.</p>
+
+                    <h3>General Apps</h3>
+                    <p>Our general-purpose Apps (games, utilities) are not directed to children under the age of 13 (or the applicable age in your jurisdiction). We do not knowingly collect personal information from children under 13 in these Apps. If we learn that we have collected personal information from a child under 13 without parental consent, we will take steps to delete that information as soon as possible.</p>
                     <p>If you are a parent or guardian and believe your child has provided us with personal information, please contact us so we can take appropriate action.</p>
-                    <p>For Apps that may be used by children, we comply with applicable laws such as the Children's Online Privacy Protection Act (COPPA) in the United States and similar regulations in other jurisdictions.</p>
+
+                    <h3>Family Safety Apps</h3>
+                    <p>Some of our Apps are family safety applications designed primarily for parents and adult family members. These Apps enable families to share locations and stay connected. While children may participate in family groups under parental supervision, the Apps are directed at and intended for adult users (parents and guardians).</p>
+
+                    <h4>Information We Collect from Child Participants</h4>
+                    <p>All users, including children, create their own accounts. During registration, users provide their age or birthdate for age verification purposes. When a child creates an account and joins a family group (with parental consent), we collect the following information:</p>
+                    <ul>
+                        <li><strong>Account Information:</strong> Name or nickname, email address (for login), age/birthdate (for verification), profile picture (optional)</li>
+                        <li><strong>Authentication:</strong> Children may sign in using email, Sign in with Google, or Sign in with Apple</li>
+                        <li><strong>Location Data:</strong> Real-time GPS location to enable family location sharing features</li>
+                        <li><strong>User-Generated Content:</strong> Chat messages sent within family groups (children under 13 cannot create meeting points or personal places, but can view those created by family members)</li>
+                        <li><strong>Device Information:</strong> Device type, operating system, and app version (for functionality and troubleshooting)</li>
+                        <li><strong>Usage Data:</strong> App usage information to provide and improve the service</li>
+                    </ul>
+                    <p>This information is collected solely to provide the family safety features and is not used for advertising purposes. Children can chat with family members and view meeting points created by other family members. Children under 13 cannot create meeting points or personal places. All interactions are limited to their family group - they cannot interact with anyone outside the group.</p>
+
+                    <h4>How We Protect Children's Data</h4>
+                    <ul>
+                        <li><strong>Age Verification:</strong> All users provide their age or birthdate during account creation to verify eligibility</li>
+                        <li><strong>Parent-Initiated:</strong> Only parents or adult guardians (18+) can create family groups and add members</li>
+                        <li><strong>Parental Consent:</strong> Parents must verify their email and actively consent before a child under 13 can join a family group</li>
+                        <li><strong>Parent-Controlled:</strong> Parents maintain full control over their children's data and can view, modify, or delete it at any time</li>
+                        <li><strong>Purpose-Limited:</strong> Children's data is used only for family safety features, never for advertising targeting or profiling</li>
+                        <li><strong>No Advertising:</strong> Users identified as children under 13 do not see any advertisements in our Apps</li>
+                        <li><strong>No Advertising ID Collection:</strong> We do not collect advertising identifiers (IDFA, GAID) from users identified as children under 13</li>
+                        <li><strong>Limited Retention:</strong> Location history is retained for up to 10 days; other data is deleted when the user deletes their account</li>
+                        <li><strong>Parental Rights:</strong> Parents can review, download, delete, or refuse further collection of their child's data at any time</li>
+                    </ul>
+
+                    <h3>COPPA Compliance</h3>
+                    <p>For Apps that may be used by children, we comply with the Children's Online Privacy Protection Act (COPPA) in the United States and similar regulations in other jurisdictions. This includes:</p>
+                    <ul>
+                        <li>Providing notice to parents about our data practices before collecting information from children</li>
+                        <li>Requiring parental consent (via email verification and active confirmation) before a child under 13 can participate</li>
+                        <li>Giving parents the right to review, delete, and refuse further collection</li>
+                        <li>Maintaining confidentiality and security of children's information</li>
+                        <li>Retaining children's data only as long as necessary</li>
+                    </ul>
+
+                    <h3>Contact for Children's Privacy</h3>
+                    <p>If you are a parent or guardian and have questions about your child's privacy, wish to review or delete your child's information, or believe your child has provided us with personal information without consent, please contact us at <a href="mailto:sergiu1203@proton.me">sergiu1203@proton.me</a> with "Children's Privacy" in the subject line.</p>
                 </section>
 
                 <section>
@@ -221,13 +286,39 @@
                     <p>We do not "sell" personal information as traditionally defined. However, some data sharing with advertising partners for targeted advertising may constitute a "sale" or "sharing" under California law. You can opt out by adjusting your device settings as described above.</p>
 
                     <h3>How to Exercise Your Rights</h3>
-                    <p>To exercise any of your privacy rights, please contact us using the information below. We will respond to your request within the timeframe required by applicable law.</p>
+                    <p>To exercise any of your privacy rights, please email us at <a href="mailto:sergiu1203@proton.me">sergiu1203@proton.me</a> with "Privacy Request" in the subject line. Include:</p>
+                    <ul>
+                        <li>Your name and email address associated with your account</li>
+                        <li>The specific right you wish to exercise</li>
+                        <li>Any relevant details about your request</li>
+                    </ul>
+                    <p>We will verify your identity before processing your request and respond within 30 days (or sooner if required by applicable law). If we need additional time, we will notify you.</p>
+
+                    <h3>Filing Complaints</h3>
+                    <p>If you are not satisfied with our response to your privacy request, you have the right to lodge a complaint with your local data protection authority:</p>
+                    <ul>
+                        <li><strong>EU/EEA:</strong> Contact your national Data Protection Authority</li>
+                        <li><strong>UK:</strong> Information Commissioner's Office (ICO) at <a href="https://ico.org.uk" target="_blank">ico.org.uk</a></li>
+                        <li><strong>USA:</strong> Federal Trade Commission (FTC) at <a href="https://ftc.gov" target="_blank">ftc.gov</a></li>
+                        <li><strong>California:</strong> California Privacy Protection Agency at <a href="https://cppa.ca.gov" target="_blank">cppa.ca.gov</a></li>
+                    </ul>
                 </section>
 
                 <section>
                     <h2>International Data Transfers</h2>
-                    <p>Your information may be transferred to and processed in countries other than your country of residence. These countries may have data protection laws that are different from the laws of your country.</p>
-                    <p>When we transfer information internationally, we take appropriate safeguards to ensure that your information remains protected in accordance with this Privacy Policy and applicable law.</p>
+                    <p>Your information may be transferred to and processed in countries other than your country of residence, including the United States. These countries may have data protection laws that are different from the laws of your country.</p>
+                    <p>When we transfer information from the European Economic Area, United Kingdom, or Switzerland to countries that have not been deemed to provide an adequate level of protection, we rely on appropriate safeguards such as Standard Contractual Clauses approved by the European Commission.</p>
+                    <p>Our primary data processor, Google Firebase, participates in the EU-U.S. Data Privacy Framework and maintains Standard Contractual Clauses for international transfers.</p>
+                </section>
+
+                <section>
+                    <h2>Data Breach Notification</h2>
+                    <p>In the event of a data breach affecting your personal information, we will notify affected users and relevant authorities as required by applicable law.</p>
+                </section>
+
+                <section>
+                    <h2>Do Not Track</h2>
+                    <p>Some browsers have a "Do Not Track" (DNT) feature that sends a signal to websites requesting that your browsing not be tracked. Our Apps do not currently respond to DNT signals. However, you can control tracking through your device settings as described in the "Interest-Based Advertising" section above.</p>
                 </section>
 
                 <section>
@@ -272,6 +363,7 @@
 
             <footer class="legal-footer">
                 <p>© 2026 Ciornii Sergiu. All rights reserved.</p>
+                <p style="margin-top: 0.5rem;"><a href="terms.html">Terms of Service</a> · <a href="children-safety.html">Children's Safety</a></p>
             </footer>
         </div>
     </div>
